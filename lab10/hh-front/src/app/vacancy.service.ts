@@ -9,7 +9,7 @@ import {Vacancy} from "./models";
 export class VacancyService {
 
   BASE_URL = 'http://localhost:8000';
-  ID = 1;
+  ID!: number;
 
   constructor(private http: HttpClient) { }
 
